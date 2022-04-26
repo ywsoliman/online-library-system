@@ -82,11 +82,9 @@ string User::getEmail()
 
 ostream& operator<<(ostream& output, const User& user)
 {
-	cout << endl;
 	output << "========== User " << user.id << " info ==========" << endl;
 	output << "Name: " << user.name << "\nAge: " << user.age << "\nID: " << user.id << "\nEmail: " << user.email << endl;
 	output << "=====================================" << endl;
-	cout << endl;
 	return output;
 }
 
